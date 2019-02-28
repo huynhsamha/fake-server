@@ -4,11 +4,11 @@ const fakerator = require('fakerator');
 const faker = fakerator();
 
 const db = []
-for (let i=3001;i<=3050;i++) {
+for (let i=4001;i<=4050;i++) {
     db.push({
         id: i,
-        ...faker.entity.company()
+        ...faker.entity.address()
     })
 }
 
-fs.writeFileSync(path.join(__dirname, './db', 'companies.json'), JSON.stringify(db, null, 4))
+fs.writeFileSync(path.join(__dirname, './db', 'addresses.json'), JSON.stringify(db, null, 4))

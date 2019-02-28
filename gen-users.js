@@ -4,7 +4,7 @@ const fakerator = require('fakerator');
 const faker = fakerator();
 
 const db = []
-for (let i=0;i<100;i++) {
+for (let i=1001;i<=1100;i++) {
     db.push({
         id: i,
         ...faker.entity.user()
