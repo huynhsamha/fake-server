@@ -1,9 +1,8 @@
 # fake-server
 
-Full fake REST APIs for frontend test. Powered by [JSON Server](https://github.com/typicode/json-server).
+🚦Full fake REST APIs for frontend test 🏓 Powered by [JSON Server](https://github.com/typicode/json-server) 🚀🚀
 
-
-Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
+Created with ❤️ for front-end developers who need a quick back-end for prototyping and mocking.
 
 No setup required, available database and REST APIs on heroku.
 
@@ -57,11 +56,15 @@ Examples:
 + http://fakapi.herokuapp.com/companies
 
 ### GET one
+
 Examples:
 + http://fakapi.herokuapp.com/users/4
 + http://fakapi.herokuapp.com/posts/7
 
 ### Filter
+
+`?[field]=[value]`
+
 Examples:
 + http://fakapi.herokuapp.com/users?id=1
 + http://fakapi.herokuapp.com/users?status=true
@@ -72,6 +75,7 @@ Examples:
 ### Paginate
 
 `_page`, `_limit`
+
 Examples:
 + http://fakapi.herokuapp.com/posts?_page=3
 + http://fakapi.herokuapp.com/posts?_page=3&limit=15
@@ -79,6 +83,7 @@ Examples:
 ### Sort
 
 `_order`, `_sort`
+
 Examples:
 + http://fakapi.herokuapp.com/users?_sort=userName&&_order=asc
 + http://fakapi.herokuapp.com/users?_sort=userName&&_order=asc&_page=5&limit=20
@@ -88,6 +93,7 @@ Examples:
 ### Operators
 
 `_gte`, `_lte`, `_ne`, `_like`
+
 Examples:
 + http://fakapi.herokuapp.com/posts?userId_lte=10&userId_gte=5
 + http://fakapi.herokuapp.com/posts?userId_lte=10&userId_gte=5&_sort=userId
@@ -96,6 +102,9 @@ Examples:
 + http://fakapi.herokuapp.com/users?email_like=de&userName_like=de
 
 ### Full-text search
+
+`?q=`
+
 Examples:
 + http://fakapi.herokuapp.com/users?q=ala
 + http://fakapi.herokuapp.com/posts?q=pro
