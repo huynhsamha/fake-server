@@ -32,8 +32,12 @@ Output:
 > json-server --watch db.json
 
   Resources
+  http://localhost:3000/addresses
+  http://localhost:3000/comments
   http://localhost:3000/companies
   http://localhost:3000/posts
+  http://localhost:3000/profile
+  http://localhost:3000/token
   http://localhost:3000/users
 
   Home
@@ -47,30 +51,36 @@ Output:
 
 ### Endpoints
 
-Endpoints: `users`, `posts`, `companies`
+Endpoints:
++ Single documents: `profile`, `token`
++ Plural documents: `users`, `posts`, `comments`, `companies`, `addresses`
 
 Examples:
 
++ http://fakapi.herokuapp.com/profile
++ http://fakapi.herokuapp.com/token
 + http://fakapi.herokuapp.com/users
 + http://fakapi.herokuapp.com/posts
++ http://fakapi.herokuapp.com/comments
 + http://fakapi.herokuapp.com/companies
++ http://fakapi.herokuapp.com/addresses
 
 ### GET one
 
 Examples:
-+ http://fakapi.herokuapp.com/users/4
-+ http://fakapi.herokuapp.com/posts/7
++ http://fakapi.herokuapp.com/users/1040
++ http://fakapi.herokuapp.com/posts/2050
 
 ### Filter
 
 `?[field]=[value]`
 
 Examples:
-+ http://fakapi.herokuapp.com/users?id=1
++ http://fakapi.herokuapp.com/users?id=1040
 + http://fakapi.herokuapp.com/users?status=true
 + http://fakapi.herokuapp.com/users?address.country=Japan
 + http://fakapi.herokuapp.com/users?address.country=Japan&status=true
-+ http://fakapi.herokuapp.com/posts?userId=5
++ http://fakapi.herokuapp.com/posts?userId=1040
 
 ### Paginate
 
@@ -95,9 +105,9 @@ Examples:
 `_gte`, `_lte`, `_ne`, `_like`
 
 Examples:
-+ http://fakapi.herokuapp.com/posts?userId_lte=10&userId_gte=5
-+ http://fakapi.herokuapp.com/posts?userId_lte=10&userId_gte=5&_sort=userId
-+ http://fakapi.herokuapp.com/posts?userId_ne=5&_sort=userId&_page=2
++ http://fakapi.herokuapp.com/posts?userId_lte=1040&userId_gte=1030
++ http://fakapi.herokuapp.com/posts?userId_lte=1040&userId_gte=1030&_sort=userId
++ http://fakapi.herokuapp.com/posts?userId_ne=1040&_sort=userId&_page=2
 + http://fakapi.herokuapp.com/users?email_like=de
 + http://fakapi.herokuapp.com/users?email_like=de&userName_like=de
 
