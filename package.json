@@ -1,0 +1,22 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "Simple fake API using [My JSON Server](https://my-json-server.typicode.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhsamha/fake-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huynhsamha/fake-server/issues"
+  },
+  "homepage": "https://github.com/huynhsamha/fake-server#readme",
+  "dependencies": {
+    "fakerator": "^0.3.0"
+  }
+}
