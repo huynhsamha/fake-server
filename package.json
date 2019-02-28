@@ -4,7 +4,8 @@
   "description": "Simple fake API using [My JSON Server](https://my-json-server.typicode.com/)",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json",
+    "start": "node index.js",
+    "start:dev": "json-server --watch db.json",
     "gen": "node gen-*.js && node merge.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

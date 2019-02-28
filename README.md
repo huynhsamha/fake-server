@@ -16,8 +16,9 @@ npm run gen
 ```
 
 + Start `json-server`
-```
-npm start
+```bash
+npm run start:dev
+# or use `npm start`
 ```
 
 Output:
