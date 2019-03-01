@@ -651,6 +651,9 @@
             }
         }
     ],
+    "changePassword": {
+        "message": "Change password successfully"
+    },
     "comments": [
         {
             "id": 5001,
@@ -12045,6 +12048,9 @@
             },
             "status": true
         }
+    },
+    "message": {
+        "message": "This is a simple message from https://fakapi.herokuapp.com"
     },
     "posts": [
         {
