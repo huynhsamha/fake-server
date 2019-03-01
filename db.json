@@ -12015,6 +12015,37 @@
             }
         }
     ],
+    "login": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VyTmFtZSI6ImFuZ2VsLmF1ZXIzNSJ9.cgoqMdMGp3WWiyRV4FvSvgLKeBhxMc2FJZyCBMBegjU",
+        "expired": 7258093200,
+        "profile": {
+            "id": 1999,
+            "firstName": "Angel",
+            "lastName": "Auer",
+            "userName": "angel.auer35",
+            "password": "vugogixuho",
+            "email": "angelauer54@yahoo.com",
+            "phone": "(174) 924-6798",
+            "dob": "1994-10-30T03:45:28.501Z",
+            "website": "https://www.karla-mcdermott.eu",
+            "ip": "58.50.243.140",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/donjain/128.jpg",
+            "gravatar": "https://www.gravatar.com/avatar/36b7d498c3f0af7231c1b5bda658ca29",
+            "address": {
+                "country": "El Salvador",
+                "countryCode": "SV",
+                "state": "Maryland",
+                "city": "South Dominic",
+                "street": "45455 Lehner Lock Apt. 682",
+                "zip": "91693",
+                "geo": {
+                    "latitude": -21.736400000000003,
+                    "longitude": -102.2367
+                }
+            },
+            "status": true
+        }
+    },
     "posts": [
         {
             "id": 2001,
@@ -19244,8 +19275,12 @@
         },
         "status": true
     },
+    "signup": {
+        "message": "Created successfully"
+    },
     "token": {
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VyTmFtZSI6ImFuZ2VsLmF1ZXIzNSJ9.cgoqMdMGp3WWiyRV4FvSvgLKeBhxMc2FJZyCBMBegjU"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VyTmFtZSI6ImFuZ2VsLmF1ZXIzNSJ9.cgoqMdMGp3WWiyRV4FvSvgLKeBhxMc2FJZyCBMBegjU",
+        "expired": 7258093200
     },
     "users": [
         {
