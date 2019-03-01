@@ -53,7 +53,7 @@ Output:
 ### Endpoints
 
 Endpoints:
-+ Single documents: `profile`, `token`, `login`, `signup`, `changePassword`, `message`
++ Single documents: `profile`, `token`, `login`, `signup`, `changePassword`, `logout`, `message`
 + Plural documents: `users`, `posts`, `comments`, `companies`, `addresses`
 
 Examples:
@@ -64,6 +64,7 @@ Single documents:
 + http://fakapi.herokuapp.com/profile
 + http://fakapi.herokuapp.com/token
 + http://fakapi.herokuapp.com/changePassword
++ http://fakapi.herokuapp.com/logout
 + http://fakapi.herokuapp.com/message
 
 Plural documents
