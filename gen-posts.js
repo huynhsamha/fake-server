@@ -4,10 +4,10 @@ const fakerator = require('fakerator');
 const faker = fakerator();
 
 const db = []
-for (let i=2001;i<=2500;i++) {
+for (let i=2001;i<=2600;i++) {
     db.push({
         id: i,
-        userId: faker.random.number(1001, 1100),
+        userId: faker.random.number(1001, 1200),
         ...faker.entity.post()
     })
 }

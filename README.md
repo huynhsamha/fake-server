@@ -8,6 +8,7 @@ No setup required, available database and REST APIs on heroku.
 
 All features powered by [JSON Server](https://github.com/typicode/json-server)
 
+Database up to **200 users** for testing.
 
 ## Quickstart
 
